@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprar accesorios</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div id="header">
+        <h1>Todo Motos</h1>
+    </div>
+    <div id="opcionesWeb">
+        <button type="button" class="botonFiltroPrincipal" id="filtroPrincipalTodo" value="Todo">Todo</button>
+        <button type="button" class="botonFiltroPrincipal" id="filtroPrincipalMotos" value="Moto">Motos</button>
+        <button type="button" class="botonFiltroPrincipal" id="filtroPrincipalAccesorios" value="Accesorio">Accesorios</button>
+    </div>
+    <div id="estructuraTienda">
+        <!-- ESTA SECCION ES DEL CARRITO DE LA TIENDA -->
+        <div class="columnaTienda" id="carrito">
+            <h2>Carrito de compras</h2>
+            <div id="columnaCarrito"></div>
+            <button class="boton" id="comprar">Comprar</button>
+        </div>
+        <!-- ESTA ES LA SECCION DE PRODUCTOS DE LA TIENDA -->
+        <div class="columnaTienda" id="productos">
+            <h2>Productos disponibles</h2>
+            <div id="filtroSeccion"></div>
+            <div id="columnaProductos"></div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
