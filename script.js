@@ -191,6 +191,19 @@ function renderTiendaFiltradaAccesorios(arrayAcce) {
 }
 
 function addCarritoAcce(e) {
+    Toastify({
+        text: "Producto agregado al carrito con éxito",
+        className: "toast",
+        duration: 2000,
+        close: true,
+        gravity: "top", // `top` or `bottom`
+        position: "right", // `left`, `center` or `right`
+        stopOnFocus: true, // Prevents dismissing of toast on hover
+        style: {
+                background: "linear-gradient(to right, #00b09b, #96c93d)",
+        },
+        onClick: function(){} // Callback after click
+        }).showToast()
     console.log(e.target.id)
     let prodBuscado = productos.find(producto => producto.referencia == e.target.id)
     let posProdBuscado = carrito.findIndex(producto => producto.referencia === prodBuscado.referencia)
