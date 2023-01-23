@@ -11,7 +11,7 @@
             "tipo": "Accesorio",
             "categoria": "Casco",
             "marca": "MT Helmets",
-            "referencia": "FF110 REVENGE 2 MOTO3 A0 BLANCO BRILLO",
+            "referencia": "REVENGE 2 MOTO3 BLANCO BRILLO",
             "precio": 115.8,
             "imgurl": "https://firebasestorage.googleapis.com/v0/b/motos-y-accesorios.appspot.com/o/REVENGE%202%20MOTO%203%20A0%20MATT%20WHITE%201.png?alt=media&token=b28a1544-7066-46de-b3b6-cfa86fa358d4"
         },
@@ -19,7 +19,7 @@
             "tipo": "Accesorio",
             "categoria": "Casco",
             "marca": "MT Helmets",
-            "referencia": "FF106 TARGO ZYFRA A3 NARANJA FLUOR BRILLO",
+            "referencia": "TARGO ZYFRA NARANJA FLUOR BRILLO",
             "precio": 77.8,
             "imgurl": "https://firebasestorage.googleapis.com/v0/b/motos-y-accesorios.appspot.com/o/1117640031.png?alt=media&token=6b49c108-2b29-4d49-861a-22d92b570d18"
         },
@@ -27,7 +27,7 @@
             "tipo": "Accesorio",
             "categoria": "Casco",
             "marca": "AIROH",
-            "referencia": "AKUNA YELLOW GLOSS",
+            "referencia": "AKUNA YELLOW GLOSS V3",
             "precio": 131.8,
             "imgurl": "https://firebasestorage.googleapis.com/v0/b/motos-y-accesorios.appspot.com/o/VAA31%201.png?alt=media&token=148a4f7c-a407-4389-a815-6205e0eba97a"
         },
@@ -219,7 +219,7 @@
             "tipo": "Accesorio",
             "categoria": "Casco",
             "marca": "MT Helmets",
-            "referencia": "FU401SV ATOM SV SOLID AMAR FLU BRI",
+            "referencia": "ATOM SV SOLID AMAR FLU BRI",
             "precio": 147.8,
             "imgurl": "https://firebasestorage.googleapis.com/v0/b/motos-y-accesorios.appspot.com/o/10520005%201.png?alt=media&token=a7725126-f5bd-4b3b-ad86-02cb0c0b06ce"
         },
@@ -227,7 +227,7 @@
             "tipo": "Accesorio",
             "categoria": "Casco",
             "marca": "Airoh",
-            "referencia": "CROSS AVIATOR 3 RAMPAGE ORANGE MATT",
+            "referencia": "CROSS AVIATOR 3 RAMPAGE ORANGE",
             "precio": 663.8,
             "imgurl": "https://firebasestorage.googleapis.com/v0/b/motos-y-accesorios.appspot.com/o/AV3RAM32.png?alt=media&token=4d5bcf83-66df-4136-b0df-f1947a48f72f"
         },
@@ -235,7 +235,7 @@
             "tipo": "Accesorio",
             "categoria": "Casco",
             "marca": "MT Helmets",
-            "referencia": "TR902XSV STREETFIGHTER SV DARKNESS A2 GRIS MATE",
+            "referencia": "STREETFIGHTER SV DARKNESS GRIS MATE",
             "precio": 97.8,
             "imgurl": "https://firebasestorage.googleapis.com/v0/b/motos-y-accesorios.appspot.com/o/1272612023.png?alt=media&token=dea9ac24-127f-44b1-bc79-6a4a05cc60b0"
         },
@@ -243,7 +243,7 @@
             "tipo": "Accesorio",
             "categoria": "Casco",
             "marca": "MT Helmets",
-            "referencia": "FF110 REVENGE 2 SCALPEL A3 AMAR FLU BRI",
+            "referencia": "REVENGE 2 SCALPEL A3 AMAR FLU BRI",
             "precio": 115.8,
             "imgurl": "https://firebasestorage.googleapis.com/v0/b/motos-y-accesorios.appspot.com/o/1279721031.png?alt=media&token=9f7bda74-ac6e-473d-beee-ca0d446b79f5"
         },
@@ -315,7 +315,7 @@
             "tipo": "Accesorio",
             "categoria": "Vestuario",
             "marca": "Richa",
-            "referencia": "PANTALON AIRVENT EVO 2",
+            "referencia": "PANTALON AIRVENT",
             "precio": 193.8,
             "imgurl": "https://firebasestorage.googleapis.com/v0/b/motos-y-accesorios.appspot.com/o/7AVEII200.png?alt=media&token=8a916aff-3f73-45e2-8f33-67a8716afc62"
         },
@@ -339,7 +339,7 @@
             "tipo": "Accesorio",
             "categoria": "Vestuario",
             "marca": "Seventy",
-            "referencia": "CHAQUETA SD-JR47 INVIERNO RACING HOMBRE NEG GRIS",
+            "referencia": "CHAQUETA SD-JR47 INVNO RACING GRIS",
             "precio": 111.8,
             "imgurl": "https://firebasestorage.googleapis.com/v0/b/motos-y-accesorios.appspot.com/o/JR-47-black-grey.jpg?alt=media&token=2a96847a-e706-4b58-8b47-a4a65d9564a1"
         },
@@ -347,7 +347,7 @@
             "tipo": "Accesorio",
             "categoria": "Vestuario",
             "marca": "Richa",
-            "referencia": "PROTECTOR DE RODILLAS / CODOS D3O GHOST",
+            "referencia": "PROTECTOR DE ROD/CODOS GHOST",
             "precio": 22,
             "imgurl": "https://firebasestorage.googleapis.com/v0/b/motos-y-accesorios.appspot.com/o/8D3KEGNONE.png?alt=media&token=ea8056dd-81fd-49d1-8713-295e88514b9d"
         },
@@ -515,7 +515,7 @@
             "tipo": "Accesorio",
             "categoria": "Maleta/Baúl",
             "marca": "Givi",
-            "referencia": "MALETA PARA MOTO MONOKEY® TREKKER OUTBACK DE ALUMINIO NATURAL, 58 LTS",
+            "referencia": "MALETA PARA MOTO MONOKEY® TREKKER 58 LTS",
             "precio": 514,
             "imgurl": "https://firebasestorage.googleapis.com/v0/b/motos-y-accesorios.appspot.com/o/OBKN58A.jpg?alt=media&token=efecf6fe-0e86-485c-8f19-4e8445fe7976"
         },
@@ -555,7 +555,7 @@
             "tipo": "Accesorio",
             "categoria": "Maleta/Baúl",
             "marca": "Givi",
-            "referencia": "MALETA PARA MOTO MONOKEY® TREKKER OUTBACK DE ALUMINIO NATURAL, 42 LTS",
+            "referencia": "MALETA PARA MOTO MONOKEY® TREKKER 42 LTS",
             "precio": 410.8,
             "imgurl": "https://firebasestorage.googleapis.com/v0/b/motos-y-accesorios.appspot.com/o/OBKN42A.jpg?alt=media&token=b345cfca-0e01-4a85-b0c5-4d54f4fd8145"
         },
@@ -571,7 +571,7 @@
             "tipo": "Accesorio",
             "categoria": "Maleta/Baúl",
             "marca": "Givi",
-            "referencia": "BAÚL V56 MAXIA4 NEGRO CON TAPA NEGRA, CATADIÓPTRICOS ROJOS Y ACABADO EN ALUMINIO ANODIZADO",
+            "referencia": "BAÚL V56 NEGRO CON TAPA NEGRA ALUMINIO ANODIZADO",
             "precio": 205.8,
             "imgurl": "https://firebasestorage.googleapis.com/v0/b/motos-y-accesorios.appspot.com/o/V56N.jpg?alt=media&token=22a600a7-02b9-4234-850e-677093fdf149"
         },
@@ -579,7 +579,7 @@
             "tipo": "Accesorio",
             "categoria": "Intercomunicador",
             "marca": "Interphone",
-            "referencia": "INTERCOMUNICADOR DOBLE TWIN BLUETOOTH HEAD SET ACTIVE",
+            "referencia": "INTERCOMUNICADOR DOBLE TWIN BLUETOOTH ACTIVE",
             "precio": 285.8,
             "imgurl": "https://firebasestorage.googleapis.com/v0/b/motos-y-accesorios.appspot.com/o/INTERPHOACTIVETP.png?alt=media&token=ebb87b28-db62-4cc4-9449-55a19e7982de"
         },

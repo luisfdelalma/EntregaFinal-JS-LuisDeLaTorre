@@ -23,7 +23,6 @@ function tiendaFiltradaTodo(e) {
     let productosTodos = productos
     renderTiendaTodo(productosTodos)
 }
-
 function renderTiendaTodo(array) {
     filtrosSeccion.innerHTML = ""
         columnaTienda.innerHTML =""
@@ -32,11 +31,13 @@ function renderTiendaTodo(array) {
         tarjetaAcce.className = "cardAcce"
         tarjetaAcce.id = acce.referencia
         tarjetaAcce.innerHTML =
-        `<h4>${acce.tipo}</h4>
+        `<div class="tituloTarjeta"><h4>${acce.tipo}</h4></div>
         <img src=${acce.imgurl} alt=${acce.referencia}>
-        <p>${acce.categoria} ${acce.marca}</p> 
-        <p>${acce.referencia}</p>
-        <button class="botonAcce" id="${acce.referencia}">Añadir al carrito</button>
+        <div class="descripcionTarjeta">
+        <p class="tituloDesc">${acce.categoria} ${acce.marca}</p> 
+        <p class="descReferencia">${acce.referencia}</p>
+        <p class="precio" >Precio: $${acce.precio}</p></div>
+        <div class="fondoBoton"><button class="botonAcce" id="${acce.referencia}">Añadir al carrito</button></div>
         `
         columnaTienda.appendChild(tarjetaAcce)
     }
@@ -45,6 +46,7 @@ function renderTiendaTodo(array) {
         boton.addEventListener("click", addCarritoAcce)
     }
 }
+
 function tiendaFiltradaMotos(e) {
     let productosFiltradosMotos = productos.filter(producto =>
         producto.tipo.includes(botonMoto.value)
@@ -114,6 +116,7 @@ function renderTiendaFiltradaMotos(arrayMoto) {
     }
 }
 }
+
 function tiendaFiltradaAccesorios(e) {
     let productosFiltradosAccesorios = productos.filter(producto =>
         producto.tipo.includes(botonAccesorio.value)

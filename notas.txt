@@ -1,0 +1,8 @@
+fondo para el div del "tipo" de producto en el top de cada tarjeta de producto para el tipo motos:
+background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+
+fondo para el div del "tipo" de producto en el top de cada tarjeta de producto para el tipo accesorios:
+background-image: linear-gradient(-60deg, #16a085 0%, #f4d03f 100%);
+
+fondo para el div del "tipo" de producto en el top de cada tarjeta de producto para el tipo accesorios:
+background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
