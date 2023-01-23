@@ -233,7 +233,12 @@ let botonComprar = document.getElementById("comprar")
 botonComprar.addEventListener("click", vaciarCarrito)
 function vaciarCarrito(e) {
     console.log("Compra realizada")
-    alert("Compra realizada con éxito!\n\nGracias por confiar en TodoMotos para realizar sus compras!")
+    swal({
+        title: "Compra realizada con éxito!",
+        text: "Gracias por confiar en TodoMotos para realizar sus compras!",
+        icon: "success",
+        button: "Seguir",
+        })
     localStorage.removeItem("carrito")
     carrito = []
     rendCarrito(carrito)
