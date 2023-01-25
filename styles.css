@@ -1,21 +1,98 @@
 /* Inicio CSS página de inicio */
 #header{
+    height: 300 px;
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 100px;
     align-items: center;
     justify-items: center;
 }
-/* Fin CSS página de inicio */
-/* ----------------------------------------- */
+h1 {
+    font-family: 'Righteous';
+    font-size: 70px;
+}
 #opcionesWeb{
-    padding: 2% 25%;
+    padding-left: 15%;
+    padding-right: 15%;
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: space-around;
     margin-top: 1%;
+    margin-bottom: 30px;
 }
+#filtroPrincipalTodo{
+    border-width: 0px;
+    height: 160px;
+    box-shadow: 0px 7px 8px 1px #3dc21b;
+	background:linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
+	background-color:#44c767;
+	border-radius:30px;
+	display:flex;
+    flex-direction: column;
+    align-items: center;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Righteous';
+	font-size:28px;
+	padding:25px 60px;
+	text-decoration:none;
+	text-shadow:0px 4px 3px #2f6627;
+}
+#filtroPrincipalTodo:hover{
+    background:linear-gradient(to bottom, #5cbf2a 5%, #44c767 100%);
+	background-color:#5cbf2a;
+}
+#filtroPrincipalMotos{
+    border-width: 0px;
+    height: 160px;
+    box-shadow: 0px 7px 8px 1px #f83600;
+	background:linear-gradient(to right, #f83600 0%, #f9d423 100%);
+	background-color:#f83600;
+	border-radius:30px;
+	display:flex;
+    flex-direction: column;
+    align-items: center;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Righteous';
+	font-size:28px;
+	padding:25px 60px;
+	text-decoration:none;
+	text-shadow:0px 4px 3px #2f6627;
+}
+#filtroPrincipalMotos:hover{
+    background:linear-gradient(to bottom, #f9d423 5%, #f83600 100%);
+	background-color:#5cbf2a;
+}
+#filtroPrincipalAccesorios{
+    border-width: 0px;
+    height: 160px;
+    box-shadow: 0px 7px 8px 1px #005bea;
+	background:linear-gradient(to top, #00c6fb 0%, #005bea 100%);
+	background-color:#f83600;
+	border-radius:30px;
+	display:flex;
+    flex-direction: column;
+    align-items: center;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Righteous';
+	font-size:28px;
+	padding:25px 40px;
+	text-decoration:none;
+	text-shadow:0px 4px 3px #2f6627;
+}
+#filtroPrincipalAccesorios:hover{
+    background:linear-gradient(to bottom, #00c6fb 5%, #005bea 100%);
+	background-color:#5cbf2a;
+}
+.mainIcon{
+    height: 80px;
+}
+
+/* Fin CSS página de inicio */
+/* ----------------------------------------- */
+
 #estructuraTienda{
     display: grid;
     grid-template-columns: 20% 80%;
@@ -50,6 +127,9 @@
     row-gap: 0.2%;
     justify-content: space-evenly;
     margin: 0px;
+}
+#productos h2{
+    font-family: 'Righteous';
 }
 /* ------------------TARJETAS------------------------------ */
 .cardAcce{
@@ -113,4 +193,10 @@
 }
 .cardAcce p .titiloDesc{
     height: 10px;
+}
+#carrito{
+    font-family: 'Righteous';
+}
+#comprar{
+    font-family: 'Righteous';
 }

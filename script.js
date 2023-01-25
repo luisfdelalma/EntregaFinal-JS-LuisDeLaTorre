@@ -2,6 +2,7 @@ fetch("./productos.json")
     .then(response => response.json())
     .then(productos => {
 
+let botonComprarFinal = document.getElementById("columnaCarrito")
 let columnaTienda = document.getElementById("columnaProductos")
 let filtrosSeccion = document.getElementById("filtroSeccion")
 renderTiendaTodo(productos)
@@ -224,7 +225,9 @@ function addCarritoAcce(e) {
     }
     localStorage.setItem("carrito", JSON.stringify(carrito))
     rendCarrito(carrito)
+
 }
+
 function rendCarrito(arrayDeProductos) {
     columnaCarrito.innerHTML = ""
     for (const producto of arrayDeProductos) {
@@ -239,14 +242,17 @@ function rendCarrito(arrayDeProductos) {
         `
     }
     let total = carrito.reduce((acc, valorActual) => acc + valorActual.subtotal, 0)
+
+    let botonComprar = document.getElementById("comprar")
+botonComprar.addEventListener("click", vaciarCarrito)
+
     if (total > 0) {
         columnaCarrito.innerHTML += `
         <h3>TOTAL: $${total.toFixed(2)}</h3>
         `
     }
 }
-let botonComprar = document.getElementById("comprar")
-botonComprar.addEventListener("click", vaciarCarrito)
+
 function vaciarCarrito(e) {
     console.log("Compra realizada")
     swal({
@@ -257,6 +263,7 @@ function vaciarCarrito(e) {
         })
     localStorage.removeItem("carrito")
     carrito = []
+
     rendCarrito(carrito)
 }
     })
