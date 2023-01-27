@@ -57,7 +57,7 @@ function tiendaFiltradaMotos(e) {
 function renderTiendaFiltradaMotos(arrayMoto) {
     filtrosSeccion.innerHTML = ""
     let filtrosMotos=document.createElement("div")
-        filtrosMotos.className="filtros"
+        filtrosMotos.className="filtrosMoto"
         filtrosMotos.innerHTML=
         `
         <div class="checkFiltro">
@@ -95,19 +95,20 @@ function renderTiendaFiltradaMotos(arrayMoto) {
         columnaTienda.innerHTML =""
     for (const acce of arrayMoto) {
         let tarjetaAcce = document.createElement("div")
-        tarjetaAcce.className = "cardAcce"
+        tarjetaAcce.className = "cardMoto"
         tarjetaAcce.id = acce.referencia
         tarjetaAcce.innerHTML =
-        `<h4>${acce.tipo}</h4>
+        `<div class="tituloTarjetaMoto"><h4>${acce.tipo}</h4></h4></div>
         <img src=${acce.imgurl} alt=${acce.referencia}>
-        <p>${acce.categoria} ${acce.marca}</p> 
-        <p>${acce.referencia}</p>
-        <p>Cilindraje: ${acce.cilindraje} cc</p>
-        <p>Sistema ABS: ${acce.sisAbs}</p>
-        <p>Potencia: ${acce.potencia} HP</p>
-        <p>Torque: ${acce.torque} Nm</p>
-        <p>Precio: $${acce.precio}</p>
-        <button class="botonAcce" id="${acce.referencia}">Añadir al carrito</button>
+        <div class="descripcionTarjetaMoto">
+        <div class="tituloTarjetaMoto">
+        <p><b>${acce.categoria} ${acce.marca} ${acce.referencia}</b></p></div>
+        <p><b>Cilindraje:</b> ${acce.cilindraje} cc</p>
+        <p><b>Sistema ABS:</b> ${acce.sisAbs}</p>
+        <p><b>Potencia:</b> ${acce.potencia} HP</p>
+        <p><b>Torque:</b> ${acce.torque} Nm</p>
+        <p><b>Precio:</b> $${acce.precio}</p></div>
+        <div class="fondoBotonMoto"><button class="botonAcce" id="${acce.referencia}">Añadir al carrito</button></div>
         `
         columnaTienda.appendChild(tarjetaAcce)
     }
@@ -127,7 +128,7 @@ function tiendaFiltradaAccesorios(e) {
 function renderTiendaFiltradaAccesorios(arrayAcce) {
     filtrosSeccion.innerHTML = ""
     let filtrosAcce=document.createElement("div")
-        filtrosAcce.className="filtros"
+        filtrosAcce.className="filtrosAcce"
         filtrosAcce.innerHTML=
         `
         <div class="checkFiltro">
